@@ -11,9 +11,16 @@ public class ECommerceAPITest {
         // Step 1: Login and get token + userId
         HashMap<String, String> loginPayload = new HashMap<>();
         loginPayload.put("userEmail", "rahulshetty@gmail.com");
-        loginPayload.put("userEmail1", "rahulshetty1@gmail.com");
+        loginPayload.put("userEmail1", "rahulshetty1@gmail1.com");
+        loginPayload.put("userEmail2", "rahulshetty1@gmail2.com");
+        loginPayload.put("userEmail3", "rahulshetty1@gmail3.com");
+        loginPayload.put("userEmail4", "rahulshetty1@gmail4.com");
+        
         loginPayload.put("userPassword", "Iamking@000");
         loginPayload.put("userPassword1", "Iamking1@000");
+        loginPayload.put("userPassword2", "Iamking2@000");
+        loginPayload.put("userPassword3", "Iamking3@000");
+        loginPayload.put("userPassword4", "Iamking4@000");
 
         RestAssured.baseURI = "https://rahulshettyacademy.com";
 

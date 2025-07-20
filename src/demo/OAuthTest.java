@@ -29,6 +29,9 @@ GetCourse gc=  given()
 	 .get("https://rahulshettyacademy.com/oauthapi/getCourseDetails").as(GetCourse.class);
 	
 	System.out.println(gc.getLinkedIn());
+	System.out.println(gc.getLinkedIn());
+	System.out.println(gc.getLinkedIn());
+	
 	System.out.println(gc.getInstructor());
 	System.out.println(gc.getCourses().getApi().get(1).getCourseTitle());
 	
